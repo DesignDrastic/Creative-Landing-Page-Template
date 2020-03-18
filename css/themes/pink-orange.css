@@ -1,0 +1,13 @@
+:root {
+  --font-title: 'Rubik', sans-serif;
+  --font-content: 'Karla', sans-serif;
+
+  --clr-primary: #cb2287;
+  --clr-secondary: #ef5f47; 
+
+  --clr-light: #fff;
+  --clr-dark: #4c4c4c;
+  --clr-gray: #6c6c6c;
+  --clr-menu: #eee;
+  --radius: 5px;
+}

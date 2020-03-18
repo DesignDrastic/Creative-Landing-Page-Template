@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900&display=swap');
+:root {
+  --font-title: 'Source Sans Pro', sans-serif;
+  --font-content: 'Source Sans Pro', sans-serif;
+  --clr-primary: #9face6;
+  --clr-secondary: #74ebd5;
+  --clr-light: #fff;
+  --clr-dark: #4c4c4c;
+  --clr-gray: #6c6c6c;
+  --clr-menu: #3c3c3c;
+  --radius: 5px;
+}
+
+.dd-header.sticky::before , .dd-header.sticky::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  transform: translateY(-50%);
+  height: 2px;
+  width: 50%;
+}
+.dd-header.sticky::before {
+  background-color: var(--clr-primary);
+  left: -50%;
+}
+.dd-header.sticky::after {
+  background-color: var(--clr-secondary);
+  right: -50%;
+}
