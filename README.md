@@ -1,4 +1,4 @@
-# Creative-Landig-Page-Template
+# Creative-Landing-Page-Template
 ----------------------------------
 Creative landing page template design
 
